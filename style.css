@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.content-part{
+    margin-left: 150px;
+    width: 50%;
+    height: auto;
+}
+.content-part h1{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    line-height: 100px;
+    
+}
+.content-part h1 span{
+    color: coral;
+}
+.content-part h2{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 100px;
+    
+}
+.content-part p{
+    font-size: 20px;
+    text-align: justify; 
+}
+.hero-btn,
+.dream-btn{
+    margin-top: 80px;
+    border: none;
+    height: 48px;
+    width: auto;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+}
+.img-part{
+    margin-top: 70px;
+    width: 50%;
+}
+.dream{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10%;
+}
+.dream-img{
+    width: 45%;
+    height: auto;
+}
+.dream-content{
+    width: 45%;
+}
+.dream-content h1{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 80px;
+}
+.dream-content h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 80px;
+
+}
+.dream-content p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.Ex-main{
+    margin-top: 150px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.Ex-main h1{
+    font-size: 50px;
+
+}
+.Experiences{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 10%;
+}
+.card{
+    width: 50%;
+    height: auto;
+    padding: 50px 10px 50px 10px;
+    
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+    border-left: 8px solid blue;
+    border-radius: 5px;
+}
+.card h1{
+    font-size: 35px;
+}
+.card h2{
+    font-size: 25px;
+    color: coral;
+    margin-top: 30px;
+    
+}
+.card p{
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: justify;
+}
+footer p{
+    margin-top: 50px;
+    text-align: center;font-size: 17px;
+    color: #1c1c1c58;
+   
+}
